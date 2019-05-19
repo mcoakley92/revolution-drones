@@ -1,0 +1,68 @@
+
+/*-------------------------------Home */
+
+
+
+.home {
+    height: 100vh;
+   
+}
+
+.heading {
+    text-align: center;
+    font-size: 70px;
+    margin: 70px;
+}
+
+
+.nav {
+  background-color: #83A1CA; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 15%;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+
+
+.home-text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.list-inline {
+    padding-left: 45%;
+    list-style: none;
+}
+
+.social li a i {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #83A1CA;
+}
+
+
+/*--------------------------------------Services*/
+
+
+.services {
+    text-align: center;
+    border: solid;
+    border-radius: 50%;
+}
