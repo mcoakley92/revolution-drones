@@ -2,12 +2,17 @@
 /*-------------------------------Home */
 
 
-
-.home {
+.home-container {
+    background-image: url('../images/rooftops.jpg');
+    background: rgba (0, 0, 0, 0);
+    background-position: bottom;
+    background-size: cover;
     height: 100vh;
-   
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+    
 }
-
 .heading {
     text-align: center;
     font-size: 70px;
@@ -58,11 +63,75 @@
 }
 
 
-/*--------------------------------------Services*/
-
-
-.services {
-    text-align: center;
-    border: solid;
-    border-radius: 50%;
+/*--------------------------------------containers*/
+.home-container {
+       height: 100vh;
+      
 }
+
+.services-container {
+    margin-top : 10px;
+    margin-bottom: 40px;
+    
+}
+
+.operations-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+
+}
+
+.gallery-container {
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+
+
+
+
+.card {
+    background-color: blue;
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    z-index: -2;
+    display: block;
+    opacity: 1 ;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    
+}
+
+.card-land {
+    background-image: url('../images/land.jpg');
+}
+
+.card-commercial {
+    background-image: url('../images/commercial.jpg');
+}
+
+.card-construction {
+    background-image: url('../images/construction.jpg');
+}
+
+.card-facilities-mgmt {
+    background-image: url('../images/facilities-mgmt.jpg');
+}
+
+.card-home-owner {
+    background-image: url('../images/home-owner.jpg');
+}
+
+.card-real-estate {
+    background-image: url('../images/real-estate.jpg');
+}
+
+
