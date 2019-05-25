@@ -1,27 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700');
+
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 /*-------------------------------Home */
 
-
-.home-container {
-    background-image: url('../images/rooftops.jpg');
-    background: rgba (0, 0, 0, 0);
-    background-position: bottom;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    margin-bottom: 0px;
-    z-index: 1;
-    
-}
 .heading {
     text-align: center;
+    color: #5b5b5b;
     font-size: 70px;
     margin: 70px;
 }
 
 
 .nav {
-  background-color: #83A1CA; 
+  color: #5b5b5b; 
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -41,6 +34,13 @@
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+    
+}
+
+.affiliate-logos {
+    display: inline;
+  margin-left: 38%;
+  
     
 }
 
@@ -64,9 +64,17 @@
 
 
 /*--------------------------------------containers*/
+
 .home-container {
-       height: 100vh;
-      
+    background-image: url('../images/rooftops.jpg');
+    opacity: 0.7;
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+    
 }
 
 .services-container {
@@ -87,6 +95,11 @@
     margin-bottom: 20px
 }
 
+.footer-container {
+    background-color: #39109D;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -112,26 +125,42 @@
 
 .card-land {
     background-image: url('../images/land.jpg');
+    opacity: 0.8;
 }
 
 .card-commercial {
     background-image: url('../images/commercial.jpg');
+    opacity: 0.8;
 }
 
 .card-construction {
     background-image: url('../images/construction.jpg');
+    opacity: 0.8;
 }
 
 .card-facilities-mgmt {
     background-image: url('../images/facilities-mgmt.jpg');
+    opacity: 0.8;
 }
 
 .card-home-owner {
     background-image: url('../images/home-owner.jpg');
+    opacity: 0.8;
 }
 
 .card-real-estate {
     background-image: url('../images/real-estate.jpg');
+    opacity: 0.8;
 }
 
+.drone-img {
+  max-width: 100%;
+  width: 300px;
+height: 180px;
+top: 0;
+left: 0;
+}
 
+.p4-txt {
+    text-align: center;
+}
