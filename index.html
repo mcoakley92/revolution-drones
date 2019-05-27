@@ -15,16 +15,19 @@
 
     <div class="container-fluid home-container">
         <div class="opaque-overlay">
-            
-             <div class="row">
-            <div class="col header">
-                Survey Air
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col">
-                <span class="affiliate-logos">
+            <div class="row">
+                <div class="col survey">
+                    
+                        Survey Air
+                    
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <span class="affiliate-logos">
             <img src="assets/images/rics.jpeg"></img>
             <img src="assets/images/caa.jpeg"></img>
             <img src="assets/images/heliguy.jpeg"></img>
@@ -79,7 +82,7 @@
             <div class="col-4">
                 <div class="card card-land">
                     <div class="card-body">
-                        <a target="blank" href="#"> Land </a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#land-modal"> Land </a>
 
                     </div>
                 </div>
@@ -88,24 +91,25 @@
             <div class="col-4 ">
                 <div class="card card-commercial">
                     <div class="card-body">
-                        <a href="#" class="card-link ">Commercial</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#commercial-modal">Commercial</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-4 ">
-                <div class="card card-construction ">
+                <div class="card card-construction">
                     <div class="card-body">
-                        <a href="#" id="card-link ">Construction</a>
-                    </div>
-                </div>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#construction-modal">Construction</a>
+                        </div>
+                        </div>
+                    
             </div>
 
 
             <div class="col-4 ">
                 <div class="card card-home-owner">
                     <div class="card-body">
-                        <a href="#" class="card-link ">Home Owner</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#home-owner-modal">Home Owner</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +117,7 @@
             <div class="col-4 ">
                 <div class="card card-facilities-mgmt ">
                     <div class="card-body">
-                        <a href="# " class="card-link ">Facilities Management</a>
+                        <a href="# " class="card-link" data-toggle="modal" data-target="#facilities-mgmt-modal">Facilities Management</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +125,7 @@
             <div class="col-4 ">
                 <div class="card card-real-estate ">
                     <div class="card-body">
-                        <a href="#" class="card-link">Real Estate</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#real-estate-modal">Real Estate</a>
                     </div>
                 </div>
             </div>
@@ -238,6 +242,122 @@
         </div>
 
     </div>
+    
+    
+    
+    
+    <div class="modal" tabindex="-1" role="dialog" id="land-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Land</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="modal" tabindex="-1" role="dialog" id="commercial-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Commercial</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="modal" tabindex="-1" role="dialog" id="construction-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Construction</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="modal" tabindex="-1" role="dialog" id="home-owner-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Home Owner</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="modal" tabindex="-1" role="dialog" id="facilities-mgmt-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Facilities Management</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="modal" tabindex="-1" role="dialog" id="real-estate-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Real Estate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+                
+                
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>       
 </body>
 
 </html>
