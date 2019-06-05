@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700');
 
-font-family: 'Oxygen', sans-serif;
-font-family: 'Roboto', sans-serif;
+font-family: 'Oxygen',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
 
 /*-------------------------------Home */
 
@@ -23,38 +25,47 @@ font-family: 'Roboto', sans-serif;
 
 
 .nav {
-  color: #5b5b5b; 
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  border-radius: 15%;
+    color: #5b5b5b;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: #fafafa;
 }
 
 .nav li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 30px;
 }
 
 a {
     color: #fafafa;
 }
 
-.home-text {
+.home-container h1 {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    color: #5b5b5b;
-    
+    font-size: 5rem;
+    font-family: 'Oxygen', sans-serif;
+    color: #fafafa;
+    padding: 10px;
+    margin: 80px 350px 15px 350px;
+    z-index: 1;
 }
 
-.affiliate-logos {
-    display: inline;
-  margin-left: 38%;
-  
-    
+
+.home-text {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #fafafa;
+
 }
+
+
+
 
 .list-inline {
     padding-left: 45%;
@@ -78,36 +89,56 @@ a {
 /*--------------------------------------containers*/
 
 .home-container {
-    background-image: url('../images/rooftops.jpg');
-    opacity: 0.7;
-    background-position: bottom;
-    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url("../images/rooftops.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
-    margin-bottom: 0px;
-    z-index: -2;
-    
+    display: block;
+    padding-top: 40px;
+    margin-bottom: 40px
 }
 
 .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.services-container {
-    margin-top : 10px;
-    margin-bottom: 40px;
+
+
+.affiliate-logos {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    padding: 0;
+    margin: 5px 400px;
+    z-index: 1;
     
+}
+
+.customers-container {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+.services-container {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
 }
 
 .operations-container {
     margin-top: 30px;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -126,23 +157,38 @@ a {
 
 
 .card {
+    position: relative;
+    top: 0;
+    left: 20%;
     background-color: blue;
     border-radius: 50%;
     width: 15em;
     height: 15em;
-    top: 0;
-    left: 0;
     margin: 15px;
     padding: 10px;
     align-items: center;
     text-align: center;
     z-index: 1;
     display: block;
-    opacity: 1 ;
+    opacity: 1;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
-    
+
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+   margin-top: 20%;
+   margin-bottom: 20%;
 }
 
 .card-land {
@@ -150,7 +196,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
-     
+
 }
 
 .card-commercial {
@@ -158,7 +204,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
-     
+
 }
 
 .card-construction {
@@ -166,7 +212,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
-    
+
 }
 
 .card-facilities-mgmt {
@@ -174,7 +220,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
-     
+
 }
 
 .card-home-owner {
@@ -197,14 +243,14 @@ a {
     font-family: Oxygen;
     font-weight: 600;
     font-size: 20px;
-    
+
 }
 
 
 a:link {
     text-align: center;
     color: #fafafa;
-    
+
 }
 
 a:hover {
@@ -212,11 +258,11 @@ a:hover {
 }
 
 .drone-img {
-  max-width: 100%;
-  width: 300px;
-height: 180px;
-top: 0;
-left: 0;
+    max-width: 100%;
+    width: 300px;
+    height: 180px;
+    top: 0;
+    left: 0;
 }
 
 .p4-txt {
