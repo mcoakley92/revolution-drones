@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700');
 
-font-family: 'Oxygen',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;
+font-family: 'Oxygen',sans-serif;
+font-family: 'Roboto',sans-serif;
 
 /*-------------------------------Home */
 
@@ -56,6 +54,7 @@ a {
 
 
 .home-text {
+    font-family: oxygen;
     text-align: center;
     font-size: 20px;
     margin-top: 30px;
@@ -64,8 +63,18 @@ a {
 
 }
 
+.drone-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #5b5b5b;
+}
 
-
+.drone-list {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #5b5b5b;
+    
+}
 
 .list-inline {
     padding-left: 45%;
@@ -86,7 +95,7 @@ a {
 }
 
 
-/*--------------------------------------containers*/
+/*------------------------------------------------------------------containers*/
 
 .home-container {
     position: relative;
@@ -94,6 +103,7 @@ a {
     left: 0;
     background-image: url("../images/rooftops.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
@@ -126,7 +136,7 @@ a {
 
 .customers-container {
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
 }
 .services-container {
@@ -135,11 +145,22 @@ a {
 
 }
 
+.drones-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-image: url("../images/dji.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
 .operations-container {
     margin-top: 30px;
     margin-bottom: 20px;
-
-
+    
+    
 }
 
 .gallery-container {
@@ -161,6 +182,7 @@ a {
     top: 0;
     left: 20%;
     background-color: blue;
+    background-size: cover;
     border-radius: 50%;
     width: 15em;
     height: 15em;
@@ -177,22 +199,16 @@ a {
 
 }
 
-.card-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
 
 .card-body {
    margin-top: 20%;
    margin-bottom: 20%;
+   
+  
 }
 
 .card-land {
-    background-image: url('../images/land.jpg');
+    background-image: url('../images/land.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
@@ -216,7 +232,7 @@ a {
 }
 
 .card-facilities-mgmt {
-    background-image: url('../images/facilities-mgmt.jpg');
+    background-image: url('../images/facilities-mgmt.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
@@ -231,7 +247,7 @@ a {
 }
 
 .card-real-estate {
-    background-image: url('../images/real-estate.jpg');
+    background-image: url('../images/real-estate.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
@@ -268,3 +284,5 @@ a:hover {
 .p4-txt {
     text-align: center;
 }
+
+
