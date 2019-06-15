@@ -1,31 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700');
 
-font-family: 'Oxygen',sans-serif;
-font-family: 'Roboto',sans-serif;
+font-family: 'Oxygen',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
 
-/*-------------------------------Home */
+/*-------------------------------------------------------Home */
 
-.survey {
-    text-align: center;
-    color: #5b5b5b;
-    font-size: 70px;
-    margin: 70px;
+.navbarDropdown {
+    list-style-type: none;
 }
-
-.heading {
-    border-bottom-color: #39109D;
-    border-bottom-style: solid;
-    text-align: left;
-    font-size: 50px;
-    margin: 30px 0px 40px 10px;
-    font-family: 'Roboto', sans-serif;
-    color: #5b5b5b;
-    font-weight: 200;
-}
-
 
 .nav {
-    color: #5b5b5b;
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -54,6 +40,7 @@ a {
     z-index: 1;
 }
 
+/*-------------------------------------------------------text/lettering*/
 
 .home-text {
     font-family: oxygen;
@@ -65,6 +52,19 @@ a {
 
 }
 
+
+.heading {
+    border-bottom-color: #39109D;
+    border-bottom-style: solid;
+    text-align: left;
+    font-size: 50px;
+    margin: 30px 0px 40px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #5b5b5b;
+    font-weight: 200;
+}
+
+
 .drone-text {
     font-family: sans-serif;
     font-size: 20px;
@@ -75,29 +75,29 @@ a {
     font-family: sans-serif;
     font-size: 20px;
     color: #5b5b5b;
+
+}
+
+.progress-text {
+     font-family: oxygen;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #5b5b5b;
     
 }
 
-.list-inline {
-    padding-left: 45%;
-    list-style: none;
-}
-
-.social li a i {
-    text-align: center;
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #83A1CA;
+.manual{
+    font-size: 15px;
+    text-align: right;
+    color: 5b5b5b;
+    padding-top: 15px;
 }
 
 
-/*------------------------------------------------------------------containers*/
+
+/*-----------------------------------------------------------------------containers/backgrounds--*/
 
 .home-container {
     position: relative;
@@ -124,25 +124,14 @@ a {
 }
 
 
-
-.affiliate-logos {
-    position: relative;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Oxygen', sans-serif;
-    padding: 0;
-    margin: 5px 400px;
-    z-index: 1;
-    
-}
-
 .customers-container {
     margin-top: 10px;
     margin-bottom: 30px;
 
 }
+
 .services-container {
- background-color: #d6d6d6;
+    background-color: #eaeaea;
     margin-top: 10px;
     margin-bottom: 40px;
 
@@ -162,14 +151,19 @@ a {
 .operations-container {
     margin-top: 30px;
     margin-bottom: 20px;
-    
-    
+
+
+}
+.progress-container {
+    margin: 80px 20px;
+    text-align: left;
 }
 
+
 .gallery-container {
-    background-color: #d6d6d6;
+    background-color: #eaeaea;
     margin-top: 30px;
-   padding: 20px 70px 40px 70px;
+    padding: 20px 70px 40px 70px;
 }
 
 .contact-container {
@@ -193,7 +187,7 @@ a {
     margin-bottom: 20px;
 }
 
-
+/*------------------------------------------------------------------------services-cards*/
 
 
 .card {
@@ -220,10 +214,10 @@ a {
 
 
 .card-body {
-   margin-top: 20%;
-   margin-bottom: 20%;
-   
-  
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+
 }
 
 .card-land {
@@ -292,44 +286,38 @@ a:hover {
     color: #5b5b5b;
 }
 
-.drone-img {
-    max-width: 100%;
-    width: 300px;
-    height: 180px;
-    top: 0;
-    left: 0;
-}
 
-.p4-txt {
-    text-align: center;
-}
 
-/* ------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------operations/progress-bars */
+
 .progress {
+    background-color: white;
     position: relative;
     height: 45px;
     margin-bottom: 4px;
     text-align: left;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 .progress-bar {
-    padding-left: relative;
+    padding-left: 0;
+    
 }
 
 .progress-type {
     position: absolute;
+    top: 0;
     left: 0px;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 20px;
     height: 100%;
-    padding: 3px 30px 2px 10px;
+    width: 16%;
+   padding: 5px 20px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-.progress-container {
-    margin: 80px 20px;
-    text-align: left;
-}
 
 .bg-enquiry {
     background-color: #9C88CE;
@@ -337,16 +325,43 @@ a:hover {
 
 .bg-planning {
     background-color: #836AC2;
-    }
+}
 
 .bg-flight {
     background-color: #6B4CB6;
-    }
+}
 
 .bg-review {
     background-color: #522EA9;
-    }
+}
 
 .bg-report {
     background-color: #39109D;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.social li a i {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #83A1CA;
+}
+
+
+.affiliate-logos {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    padding: 0;
+    margin: 5px 400px;
+    z-index: 1;
+
 }
