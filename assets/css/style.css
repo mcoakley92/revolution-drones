@@ -7,7 +7,6 @@ sans-serif;
 
 /*-------------------------------------------------------Home */
 
-
 .navbarDropdown {
     list-style-type: none;
 }
@@ -33,9 +32,28 @@ a {
     color: #fafafa;
 }
 
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-radius: 10%;
+    border-color: #fafafa;
+    
+}
+
+   
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  margin: 4px;
+  background-color: #fafafa;
+ 
+}
+
 .home-container h1 {
     text-align: center;
-    font-size: 5rem;
+        font-size: 5rem;
     font-family: 'Oxygen', sans-serif;
     color: #fafafa;
     padding: 10px;
@@ -119,7 +137,7 @@ a {
     display: block;
     padding-top: 40px;
     margin-bottom: 40px;
-    justify-content: center;
+    justify-content: middle;
 }
 
 .opaque-overlay {
@@ -136,6 +154,7 @@ a {
     background-image: url("../images/dji.png");
     background-repeat: no-repeat;
     background-size: contain;
+   background-position: right;
     top: 0;
     right: 0;
     width: 100%;
@@ -143,10 +162,7 @@ a {
 }
 
 
-.gallery-container {
-    background-color: #eaeaea;
-    margin-top: 30px;
-}
+
 
 .contact-container {
     background-image: url("../images/contact.jpeg");
@@ -159,7 +175,7 @@ a {
 
 
 .footer-container {
-    background-color: #39109D;
+    background-color: #5b5b5b;
     margin-top: 30px;
     margin-bottom: 20px;
     color: #fafafa;
@@ -308,7 +324,7 @@ a:hover {
 }
 
 .progress-bar {
-    padding-left: 0;
+   padding-left: 0;
     
 }
 
@@ -324,10 +340,7 @@ a:hover {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-.progress {
-    background-color: rgba(25, 25, 25, 0.2);
-    
-}
+
 .bg-enquiry {
     background-color: #9C88CE;
 }
@@ -360,7 +373,7 @@ a:hover {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #83A1CA;
+    background: #c1c1c1;
 }
 
 
