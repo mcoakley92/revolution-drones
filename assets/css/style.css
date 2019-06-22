@@ -157,15 +157,13 @@ a {
     height: 100%;
 }
 
-.footer1-container {
-    text-align: center;
-    color: #5b5b5b;
-}
 
 .footer-container {
     background-color: #39109D;
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #fafafa;
+    text-align: center;
 }
 
 /*------------------------------------------------------------------------services-cards*/
@@ -350,7 +348,7 @@ a:hover {
     background-color: #39109D;
 }
 
-/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------footer*/
 
 .social li a i {
     text-align: center;
@@ -372,7 +370,6 @@ a:hover {
     font-size: 30px;
     font-family: 'Oxygen', sans-serif;
     padding: 0;
-    margin: 5px 400px;
     z-index: 1;
 
 }
