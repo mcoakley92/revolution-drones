@@ -8,33 +8,29 @@ sans-serif;
 /*-------------------------------------------------------Home */
 
 .section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 
 .section h1 {
-    text-align: center;
-    font-size: 6rem;
-   font-family: 'Oxygen', sans-serif;
-    z-index: 1;
-    background-color: white;
-    color:black;
-    padding: 20px;
-    margin: 15px;
-    
+  text-align: center;
+  font-size: 6rem;
+  font-family: "oxygen";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  
 }
 
 .video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .navbarDropdown {
@@ -177,7 +173,8 @@ a:hover {
     display: block;
     padding-top: 40px;
     margin-bottom: 40px;
-    justify-content: middle;
+    justify-content: center;
+    
 }
 
 .opaque-overlay {
