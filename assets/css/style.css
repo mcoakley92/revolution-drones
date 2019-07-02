@@ -112,6 +112,7 @@ a:hover {
 .heading {
     border-bottom-color: #39109D;
     border-bottom-style: solid;
+    border-bottom-width: 1px;
     text-align: left;
     font-size: 50px;
     margin: 30px 0px 40px 10px;
