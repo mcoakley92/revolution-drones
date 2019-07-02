@@ -19,10 +19,12 @@ sans-serif;
 .section h1 {
   text-align: center;
   font-size: 6rem;
-  font-family: "oxygen";
+  font-family: 'Oxygen', sans-serif;
+  color: #fafafa;
   padding: 20px;
   margin: 15px;
   z-index: 1;
+  color:;
   
 }
 
@@ -31,6 +33,9 @@ sans-serif;
   top: 0;
   left: 0;
   width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-size: cover;
 }
 
 .navbarDropdown {
