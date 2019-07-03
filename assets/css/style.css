@@ -7,14 +7,6 @@ sans-serif;
 
 /*-------------------------------------------------------Home */
 
-.section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
 
 .section h1 {
   text-align: center;
@@ -35,7 +27,14 @@ sans-serif;
   width: 100%;
   height: 100vh;
   z-index: -1;
-  background-size: cover;
+ }
+ 
+#drone-video {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .navbarDropdown {
@@ -170,14 +169,12 @@ a:hover {
     position: relative;
     top: 0;
     left: 0;
-    background-image: url("../images/rooftops.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     width: 100%;
     height: 100vh;
     display: block;
-    padding-top: 40px;
+    padding-top: 10%;
     margin-bottom: 40px;
     justify-content: center;
     
@@ -202,8 +199,7 @@ a:hover {
     right: 0;
     width: 100%;
     height: 100%;
-}
-
+  }
 
 
 
@@ -215,16 +211,17 @@ a:hover {
     width: 100%;
     height: 100%;
      font-family: 'Oxygen', sans-serif;
+      padding: 10px 70px 25px 70px;
 }
 
 
 .footer-container {
     background-color: #5b5b5b;
     margin-top: 30px;
-    margin-bottom: 20px;
     color: #fafafa;
     text-align: center;
      font-family: 'Oxygen', sans-serif;
+     
 }
 
 /*------------------------------------------------------------------------services-cards*/
