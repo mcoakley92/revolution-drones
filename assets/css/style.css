@@ -25,7 +25,7 @@ sans-serif;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
   z-index: -1;
  }
  
@@ -123,7 +123,8 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     color: #5b5b5b;
     font-weight: 200;
-}
+
+    }
 
 
 .drone-text {
@@ -217,7 +218,7 @@ a:hover {
 
 .footer-container {
     background-color: #5b5b5b;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #fafafa;
     text-align: center;
      font-family: 'Oxygen', sans-serif;
@@ -353,10 +354,12 @@ a:hover {
     text-align: left;
     font-weight: 500;
     font-size: 12px;
+
 }
 
 .progress-bar {
    padding-left: 0;
+   text-align: left;
     
 }
 
@@ -364,7 +367,7 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0px;
-    font-weight: 500;
+      font-weight: 500;
     font-size: 1rem;
     height: 100%;
      padding: 5px 20px;
@@ -372,10 +375,24 @@ a:hover {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-
-.bg-enquiry {
-    background-color: #9C88CE;
+.operations-section {
+    color: #fafafa;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 40px;
 }
+
+.operations-row {
+    padding-top:5px;
+    height:40px;
+}
+
+h7 {
+    font-weight: 600;
+    padding-right: 15px;
+}
+.bg-enquiry {
+       background-color: #9C88CE;
+     }
 
 .bg-planning {
     background-color: #836AC2;
@@ -394,6 +411,9 @@ a:hover {
 }
 
 /*---------------------------------------------------------------------------------footer*/
+.social {
+    padding-top: 10px;
+}
 
 .social li a i {
     text-align: center;
@@ -414,7 +434,7 @@ a:hover {
     text-align: center;
     font-size: 30px;
     font-family: 'Oxygen', sans-serif;
-    padding: 0;
+    padding=top: 15px;
     z-index: 1;
 
 }
