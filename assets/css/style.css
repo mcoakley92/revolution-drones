@@ -154,7 +154,7 @@ a:hover {
     font-size: 15px;
      font-family: 'Oxygen', sans-serif;
     text-align: right;
-    color: 5b5b5b;
+    color: #5b5b5b;
     padding-top: 15px;
 }
 
@@ -375,6 +375,12 @@ a:hover {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
+
+h7 {
+    font-weight: 600;
+    padding-right: 15px;
+}
+
 .operations-section {
     color: #fafafa;
     font-family: 'Oxygen', sans-serif;
@@ -382,33 +388,41 @@ a:hover {
 }
 
 .operations-row {
-    padding-top:5px;
-    height:40px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    margin-top:2px;
+    margin-bottom: 2px;
+   
 }
 
-h7 {
-    font-weight: 600;
-    padding-right: 15px;
+.bg-operations {
+     margin-top: 2px;
+       margin-bottom: 2px;
+       padding-top: 9px;
+       padding-bottom: 9px;
+       font-size: 16px;
+    
 }
-.bg-enquiry {
+.enquiry {
        background-color: #9C88CE;
-     }
+            }
 
-.bg-planning {
+.planning {
     background-color: #836AC2;
 }
 
-.bg-flight {
+.flight {
     background-color: #6B4CB6;
-}
+ }
 
-.bg-review {
+.review {
     background-color: #522EA9;
+  
 }
 
-.bg-report {
+.report {
     background-color: #39109D;
-}
+   }
 
 /*---------------------------------------------------------------------------------footer*/
 .social {
