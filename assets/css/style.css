@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700');
 
-font-family: 'Oxygen',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;
 
 /*-------------------------------------------------------Home */
 
@@ -59,7 +55,6 @@ sans-serif;
     border-color: #fafafa;
 
 }
-
 
 
 .navbar li {
@@ -190,16 +185,6 @@ a:hover {
     
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-
 .drones-container {
     background-image: url("../images/dji.png");
     background-repeat: no-repeat;
@@ -211,7 +196,6 @@ a:hover {
     height: 100%;
    
   }
-
 
 
 .contact-container {
@@ -244,6 +228,9 @@ a:hover {
     left: 20%;
     background-color: white;
     background-size: cover;
+     background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
     border-radius: 50%;
     width: 15em;
     height: 15em;
@@ -253,8 +240,7 @@ a:hover {
     text-align: center;
     z-index: 1;
     display: block;
-    opacity: 1;
-    transition: all .3s ease-in;
+        transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
 
@@ -273,49 +259,27 @@ a:hover {
 
 .card-land {
     background-image: url('../images/land.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
-
 }
 
 .card-commercial {
     background-image: url('../images/commercial.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
-
 }
 
 .card-construction {
     background-image: url('../images/construction.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
-
 }
 
 .card-facilities-mgmt {
     background-image: url('../images/facilities-mgmt.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
-   
 }
 
 .card-home-owner {
     background-image: url('../images/home-owner.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
 }
 
 .card-real-estate {
     background-image: url('../images/real-estate.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
-}
+   }
 
 .card-body a {
     color: #fafafa;
@@ -349,9 +313,6 @@ a:hover {
         padding-left: 60px;
     }
     
-    .modal-body {
-        
-    }
 
 
 /* ---------------------------------------------------------------------operations/progress-bars */
