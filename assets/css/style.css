@@ -14,10 +14,18 @@ sans-serif;
   font-family: 'Oxygen', sans-serif;
   color: #fafafa;
   padding: 20px;
+  padding-left: 0;
   margin: 15px;
   z-index: 1;
   color:;
   
+}
+
+.logo {
+    width:7rem;
+    height:7rem;
+    margin-right: 40px;
+   
 }
 
 .video-container {
